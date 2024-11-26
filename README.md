@@ -16,10 +16,12 @@ Direct Proof:
   - $A$ has a set of vertices $V_{A}$ and a set of edges $E_{A}$.
   - $B$ has a set of vertices $V_{B}$ and a set of edges $E_{B}$.
   - $|V_{A}| = m$ and $|V_{B}| = n$ where $m = n$.
-- If there is a one-to-one and onto function $f: V_{A} \rightarrow V_{B}$.
-  - There are same number of vertices in $B$ and $A$. This makes it possible for every vertex in $B$ to be mapped to a vertex in $A$.
+  
+- Since $|V_{A}| = |V_{B}|$ the two graphs have the same cardinality (the same number of elements). This means there exists a bijection function
+- $f: V_{A} \rightarrow V_{B}$.
+  - Since $|V_{A}| = |V_{B}|$. This makes it possible for each vertex in $B$ to be mapped to by a vertex in $A$.
   - This passes the onto condition of bijection.
-- If the funtion is onto and fully connected. The function would only need to map one unique vertex from $A$ to one unique vertex in $B$.
+- If the function is onto and the graph is fully connected. The function would only need to map one unique vertex from $A$ to one unique vertex in $B$.
   - The graphs edge structure of $A$ is preserved under $f$.
   - Fulfilling the requirements for the one-to-one condition of bijection.
 -  This shows that if two graphs $A$ and $B$ have the same number of nodes and are completely connected, they must be isomorphic.
