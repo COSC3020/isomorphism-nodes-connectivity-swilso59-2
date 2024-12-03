@@ -13,12 +13,10 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 ## Answer 
 Direct Proof:
 - If we have two graphs $A$ and $B$ that are both completely connected and have the same number of nodes.
-  - $A$ has a set of vertices $V_{A}$ and a set of edges $E_{A}$.
-  - $B$ has a set of vertices $V_{B}$ and a set of edges $E_{B}$.
-  - $|V_{A}| = m$ and $|V_{B}| = n$ where $m = n$.
-  
-- Since $|V_{A}| = |V_{B}|$ the two graphs have the same cardinality (the same number of elements). According to theorem 2 of the pigeonhole principle "If X and Y have the same number of elements and f is one-to-one, then f is onto". This means there exists a bijection function
-- $f: V_{A} \rightarrow V_{B}$.
+  - $A$ has a set of vertices $V_{A} = {v_{1}, v_{2}, ... , v_{m}}$ and a set of edges $E_{A}$.
+  - $B$ has a set of vertices $V_{B} = {w_{1}, w_{2}, ... , w_{m}}$ and a set of edges $E_{B}$.
+  -  Since $|V_{A}| = and $|V_{B}| = m$. We can construct a bijection function by defining $f(v_{i}) = w_{i}$ for $i = 1,2, ... , m$.
+- Now we can verify that $f$ is a bijection. 
   - Since $|V_{A}| = |V_{B}|$. This makes it possible for each vertex in $B$ to be mapped to by a vertex in $A$.
   - This passes the onto condition of bijection.
 - If the function is onto and the graph is fully connected. The function would only need to map one unique vertex from $A$ to one unique vertex in $B$.
