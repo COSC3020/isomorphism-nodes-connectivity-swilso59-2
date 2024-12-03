@@ -15,7 +15,7 @@ Direct Proof:
 - If we have two graphs $A$ and $B$ that are both completely connected and have the same number of nodes.
   - $A$ has a set of vertices $V_{A} = {v_{1}, v_{2}, ... , v_{m}}$ and a set of edges $E_{A}$.
   - $B$ has a set of vertices $V_{B} = {w_{1}, w_{2}, ... , w_{m}}$ and a set of edges $E_{B}$.
-  -  Since $|V_{A}| = and $|V_{B}| = m$. We can construct a bijection function by defining $f(v_{i}) = w_{i}$ for $i = 1,2, ... , m$.
+  -  Since $|V_{A}| = $|V_{B}| = m$. We can construct a bijection function by defining $f(v_{i}) = w_{i}$ for $i = 1,2, ... , m$.
 - Now we can verify that $f$ is a bijection. 
   - Since $|V_{A}| = |V_{B}|$. This makes it possible for each vertex in $B$ to be mapped to by a vertex in $A$.
   - This passes the onto condition of bijection.
