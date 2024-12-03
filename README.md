@@ -17,16 +17,17 @@ Direct Proof:
   - $B$ has a set of vertices $V_{B}$ and a set of edges $E_{B}$.
   - $|V_{A}| = m$ and $|V_{B}| = n$ where $m = n$.
   
-- Since $|V_{A}| = |V_{B}|$ the two graphs have the same cardinality (the same number of elements). This means there exists a bijection function
+- Since $|V_{A}| = |V_{B}|$ the two graphs have the same cardinality (the same number of elements). According to theorem 2 of the pigeonhole principle "If X and Y have the same number of elements and f is one-to-one, then f is onto". This means there exists a bijection function
 - $f: V_{A} \rightarrow V_{B}$.
   - Since $|V_{A}| = |V_{B}|$. This makes it possible for each vertex in $B$ to be mapped to by a vertex in $A$.
   - This passes the onto condition of bijection.
 - If the function is onto and the graph is fully connected. The function would only need to map one unique vertex from $A$ to one unique vertex in $B$.
-  - The graphs edge structure of $A$ is preserved under $f$.
+  - The graph's edge structure of $A$ is preserved under $f$.
   - Fulfilling the requirements for the one-to-one condition of bijection.
 -  This shows that if two graphs $A$ and $B$ have the same number of nodes and are completely connected, they must be isomorphic.
 
 This answer was adapted from my answer of the previous assignment. https://github.com/COSC3020/isomorphism-nodes-swilso59-2
+https://www.geeksforgeeks.org/discrete-mathematics-the-pigeonhole-principle/#pigeonhole-principle-theorem
 
 “I certify that I have listed all sources used to complete this exercise, including the use
 of any Large Language Models. All of the work is my own, except where stated
